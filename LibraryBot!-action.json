@@ -1,0 +1,6265 @@
+{
+  "name": "LibraryBot!-action",
+  "type": "action",
+  "valid": true,
+  "status": "Available",
+  "created": "2023-07-01T12:42:17.163Z",
+  "updated": "2023-07-05T17:31:40.103Z",
+  "language": "en",
+  "skill_id": "bdf290f1-9221-401e-a096-48686f020e4f",
+  "workspace": {
+    "actions": [
+      {
+        "steps": [
+          {
+            "step": "step_787",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"The Unhoneymooners\" karya Christina Lauren (2019)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=30k",
+                  "source": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/5/14/8481125c-23d0-43bd-b2e2-40987cee9109.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [C11:06]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_787_result_1"
+              }
+            },
+            "variable": "step_787"
+          }
+        ],
+        "title": "\"The Unhoneymooners\" karya Christina Lauren (2019)",
+        "action": "action_10980",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_10980_intent_36221"
+        },
+        "variables": [
+          {
+            "title": "\"The Unhoneymooners\" karya Christina Lauren (2019)",
+            "variable": "step_787",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_787_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_15350",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_685",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Lonely Planet Bali & Lombok oleh Ryan Ver Berkmoes (2021)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=75k",
+                  "source": "https://m.media-amazon.com/images/I/61CuZiilJxL._AC_UF1000,1000_QL80_.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [E12:03]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_685_result_1"
+              }
+            },
+            "variable": "step_685"
+          }
+        ],
+        "title": "Lonely Planet Bali & Lombok oleh Ryan Ver Berkmoes (2021)",
+        "action": "action_12210",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_12210_intent_32777"
+        },
+        "variables": [
+          {
+            "title": "Lonely Planet Bali & Lombok oleh Ryan Ver Berkmoes (2021)",
+            "variable": "step_685",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_685_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_5904",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_757",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"Berbahasa dan Bersastra Indonesia Kelas X\" karya Kemendikbud (2020)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=71k",
+                  "source": "https://online.fliphtml5.com/wnsdp/kpia/files/large/67c3c32bfa2b9791019b63f40f0bcccd.jpg?1658370976",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [D12:06]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_757_result_1"
+              }
+            },
+            "variable": "step_757"
+          }
+        ],
+        "title": "\"Berbahasa dan Bersastra Indonesia Kelas X\" karya Kemendikbud (2",
+        "action": "action_12593",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_12593_intent_24763"
+        },
+        "variables": [
+          {
+            "title": "\"Berbahasa dan Bersastra Indonesia Kelas X\" karya Kemendikbud (2",
+            "variable": "step_757",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_757_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_15485",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_564",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"The Four Winds\" by Kristin Hannah (2021)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=88k",
+                  "source": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQxbHHNcgTeclwQOd1m7pczPQwQzOqYQmLlXAhg7jXCR5aNIVCX",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A12:07]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_564_result_1"
+              }
+            },
+            "variable": "step_564"
+          }
+        ],
+        "title": "\"The Four Winds\" by Kristin Hannah (2021)",
+        "action": "action_12724",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_12724_intent_27458"
+        },
+        "variables": [
+          {
+            "title": "\"The Four Winds\" by Kristin Hannah (2021)",
+            "variable": "step_564",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_564_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_40765",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_971",
+            "output": {
+              "generic": [
+                {
+                  "title": "IDR=60k",
+                  "source": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2mcTp1OPFrdv4bdriMJlYC-gjF3pIUg4_jFDbHqmn-CAyRxvs",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A14:03]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_971_result_1"
+              }
+            },
+            "variable": "step_971"
+          }
+        ],
+        "title": "\"To Sleep in a Sea of Stars\" by Christopher Paolini (2020)",
+        "action": "action_13627",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_13627_intent_26359"
+        },
+        "variables": [
+          {
+            "title": "",
+            "variable": "step_971",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_971_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_9119",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_404",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Hai.."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_7327",
+                "parameters": null,
+                "result_variable": "step_404_result_1"
+              }
+            },
+            "variable": "step_404"
+          }
+        ],
+        "title": "back to the beginning",
+        "action": "action_14962",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_14962_intent_38983"
+        },
+        "variables": [
+          {
+            "title": "Hai..",
+            "variable": "step_404",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_404_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_48343",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_237",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"The Hating Game\" karya Sally Thorne (2016)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=25k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLik3hDhpNu5v2jkC9ZS47-IKdTUg7iK8nww09BRUyKAyGyVJ_",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [C11:04]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_237_result_1"
+              }
+            },
+            "variable": "step_237"
+          }
+        ],
+        "title": "\"The Hating Game\" karya Sally Thorne (2016)",
+        "action": "action_15350",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_15350_intent_44930"
+        },
+        "variables": [
+          {
+            "title": "\"The Hating Game\" karya Sally Thorne (2016)",
+            "variable": "step_237",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_237_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_43650",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_843",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"Soe Hok Gie: Biografi Sang Demonstran\" karya Muhammad Rifai (2010)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=70k",
+                  "source": "https://inlis.madiunkota.go.id/uploaded_files/sampul_koleksi/original/Monograf/10183.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [C13:01]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_843_result_1"
+              }
+            },
+            "variable": "step_843"
+          }
+        ],
+        "title": "\"Soe Hok Gie: Biografi Sang Demonstran\" karya Muhammad Rifai (20",
+        "action": "action_15485",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_15485_intent_41296"
+        },
+        "variables": [
+          {
+            "title": "\"Soe Hok Gie: Biografi Sang Demonstran\" karya Muhammad Rifai (20",
+            "variable": "step_843",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_843_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_25663",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_616",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"Sweat\" karya Lynn Nottage (2015)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=66k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTV8-Q3335RvObfDbEJA5rvMO3MmJEacjoynZzHV-FNEvpwhv7r",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [B14:09]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_616"
+          }
+        ],
+        "title": "\"Sweat\" karya Lynn Nottage (2015)",
+        "action": "action_15755",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_15755_intent_46909"
+        },
+        "variables": [
+          {
+            "title": "\"Sweat\" karya Lynn Nottage (2015)",
+            "variable": "step_616",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_12724",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_853",
+            "output": {
+              "generic": [
+                {
+                  "title": "IDR=217K",
+                  "source": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk_h1RQu4CeN7J_EogWYaL_GTATyjhsDPWNmhLK4XFb8kuY9V0",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A11:02]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_853_result_1"
+              }
+            },
+            "variable": "step_853"
+          }
+        ],
+        "title": "\"The Secret Lives of Church Ladies\" by Deesha Philyaw (2020)",
+        "action": "action_23441",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_23441_intent_31537"
+        },
+        "variables": [
+          {
+            "title": "",
+            "variable": "step_853",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_853_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_47343",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_892",
+            "output": {
+              "generic": [
+                {
+                  "title": "Filosofi Teras",
+                  "source": "https://www.gramedia.com/blog/content/images/2022/06/img20220101_11444970.jpg",
+                  "alt_text": "Filosofi Teras",
+                  "description": "CODE:E14:12",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_892_result_1"
+              }
+            },
+            "variable": "step_892"
+          }
+        ],
+        "title": "Filosofi Teras",
+        "action": "action_25220",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_25220_intent_5519"
+        },
+        "variables": [
+          {
+            "title": "",
+            "variable": "step_892",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_892_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_6168",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_704",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"The Ten Thousand Doors of January\" karya Alix E. Harrow (2019)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=88k",
+                  "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH24BNV61MKtpG4CZAHqjupUXD_xMoaCBA5EGHLvOVFvlVkDMD",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [C12:04]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_704_result_1"
+              }
+            },
+            "variable": "step_704"
+          }
+        ],
+        "title": "\"The Ten Thousand Doors of January\" karya Alix E. Harrow (2019)",
+        "action": "action_25663",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_25663_intent_17135"
+        },
+        "variables": [
+          {
+            "title": "\"The Ten Thousand Doors of January\" karya Alix E. Harrow (2019)",
+            "variable": "step_704",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_704_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_34103",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_750",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Want to find another book?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "options": [
+                    {
+                      "label": "yes",
+                      "value": {
+                        "input": {
+                          "text": "yes"
+                        }
+                      }
+                    },
+                    {
+                      "label": "no",
+                      "value": {
+                        "input": {
+                          "text": "no"
+                        }
+                      }
+                    }
+                  ],
+                  "response_type": "option",
+                  "repeat_on_reprompt": true
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "not_found",
+                "title": "validation_not_found_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I didn't catch that. Select a valid option:"
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_handler",
+                "resolver": {
+                  "type": "prompt_again"
+                },
+                "next_handler": "validation_not_found_max_tries_handler"
+              },
+              {
+                "type": "not_found_max_tries",
+                "title": "validation_not_found_max_tries_handler",
+                "handler": "validation_not_found_max_tries_handler",
+                "resolver": {
+                  "type": "fallback"
+                }
+              }
+            ],
+            "question": {
+              "entity": "entity_34165",
+              "max_tries": 3
+            },
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_750",
+            "next_step": "step_596"
+          },
+          {
+            "step": "step_596",
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_8231",
+                "parameters": null,
+                "result_variable": "step_596_result_1"
+              }
+            },
+            "variable": "step_596",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_750"
+                },
+                {
+                  "value": "yes",
+                  "from_entity": "entity_34165"
+                }
+              ]
+            },
+            "next_step": "step_298"
+          },
+          {
+            "step": "step_298",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Thank you for visiting...\n\nSee you again!"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_298",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_750"
+                },
+                {
+                  "value": "no",
+                  "from_entity": "entity_34165"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "Looking for another book?",
+        "action": "action_27480",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_27480_intent_37414"
+        },
+        "variables": [
+          {
+            "title": "Thank you for visiting... See you again!",
+            "variable": "step_298",
+            "data_type": "any"
+          },
+          {
+            "title": "No response",
+            "variable": "step_596",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_596_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "Want to find another book?",
+            "variable": "step_750",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_7327",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_933",
+            "output": {
+              "generic": [
+                {
+                  "title": "The Visual MBA",
+                  "source": "https://www.gramedia.com/blog/content/images/2023/03/p5upyyivr7mcjfrvufdkzs.jpg",
+                  "alt_text": "",
+                  "description": "CODE:E14:14",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_933_result_2"
+              }
+            },
+            "variable": "step_933"
+          }
+        ],
+        "title": "The Visual MBA",
+        "action": "action_28952",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_28952_intent_39112"
+        },
+        "variables": [
+          {
+            "title": "",
+            "variable": "step_933",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_933_result_2",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_38427",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_381",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "1. if you already know the title of the book you are looking for, you can type it directly with the prefix: title:(book title)\n  2. if you don't have the title of the book you want to read, we can recommend an interesting book according to the genre you like, and you can see which books are trending recently, by writing a (trading book)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_381"
+          }
+        ],
+        "title": "How to use assistant",
+        "action": "action_29575",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_29575_intent_49230"
+        },
+        "variables": [
+          {
+            "title": "1. if you already know the title of the book you are looking for",
+            "variable": "step_381",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_37166",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_101",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Ensiklopedia Sejarah Dunia oleh Tim Ensiklopedia Sejarah Dunia (2022)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=73k",
+                  "source": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/8/20/bc6a6aa7-43d5-490b-a1dc-06ae99531750.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [D14:04]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_101_result_1"
+              }
+            },
+            "variable": "step_101"
+          }
+        ],
+        "title": "Ensiklopedia Sejarah Dunia oleh Tim Ensiklopedia Sejarah Dunia (",
+        "action": "action_31439",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_31439_intent_48940"
+        },
+        "variables": [
+          {
+            "title": "Ensiklopedia Sejarah Dunia oleh Tim Ensiklopedia Sejarah Dunia (",
+            "variable": "step_101",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_101_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_38313",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_716",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"The Hill We Climb\" by Amanda Gorman (2021)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=22k",
+                  "source": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612178266l/56914101.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [B13:01]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_716_result_1"
+              }
+            },
+            "variable": "step_716"
+          }
+        ],
+        "title": "\"The Hill We Climb\" by Amanda Gorman (2021)",
+        "action": "action_34103",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_34103_intent_27836"
+        },
+        "variables": [
+          {
+            "title": "\"The Hill We Climb\" by Amanda Gorman (2021)",
+            "variable": "step_716",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_716_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_15755",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_179",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Book not available !"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_179_result_1"
+              }
+            },
+            "variable": "step_179"
+          }
+        ],
+        "title": "enter the book title",
+        "action": "action_37166",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_37166_intent_1660"
+        },
+        "variables": [
+          {
+            "title": "Book not available !",
+            "variable": "step_179",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_179_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_43762",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_308",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"Beach Read\" karya Emily Henry (2020)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=35k",
+                  "source": "https://media.karousell.com/media/photos/products/2021/9/30/english_beach_read_by_emily_he_1633044938_42a7f450_progressive.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [C11:09]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_308_result_1"
+              }
+            },
+            "variable": "step_308"
+          }
+        ],
+        "title": "\"Beach Read\" karya Emily Henry (2020)",
+        "action": "action_37686",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_37686_intent_42787"
+        },
+        "variables": [
+          {
+            "title": "\"Beach Read\" karya Emily Henry (2020)",
+            "variable": "step_308",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_308_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_10980",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_668",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"The Sanatorium\" by Sarah Pearse (2021)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=44k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzgjRoZEQ7RKbsIHdthDGqOm0Mb1qrs7PPOmITeI8ELkRTe89h",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A13:01]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_668_result_1"
+              }
+            },
+            "variable": "step_668"
+          }
+        ],
+        "title": "\"The Sanatorium\" by Sarah Pearse (2021)",
+        "action": "action_37803",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_37803_intent_39327"
+        },
+        "variables": [
+          {
+            "title": "\"The Sanatorium\" by Sarah Pearse (2021)",
+            "variable": "step_668",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_668_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_47657",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_459",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Tuti Soenardi 500 Resep dari Sang Ahli: Kitab Makanan Bayi Balita (2022)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=72k",
+                  "source": "https://cdn.gramedia.com/uploads/items/9786020381022_500-Resep-dari-Sang-Ahli_Kitab-Makanan-Bayi-Balita.png",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [D13:08]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_459_result_1"
+              }
+            },
+            "variable": "step_459"
+          }
+        ],
+        "title": "Tuti Soenardi 500 Resep dari Sang Ahli: Kitab Makanan Bayi Balit",
+        "action": "action_38313",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_38313_intent_13548"
+        },
+        "variables": [
+          {
+            "title": "Tuti Soenardi 500 Resep dari Sang Ahli: Kitab Makanan Bayi Balit",
+            "variable": "step_459",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_459_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_12593",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_165",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Berikut beberapa buku trending belakangan ini!"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=33k",
+                  "source": "https://www.gramedia.com/blog/content/images/2023/03/p5upyyivr7mcjfrvufdkzs.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A11:10]",
+                  "response_type": "image"
+                },
+                {
+                  "title": "IDR=45k",
+                  "source": "https://www.gramedia.com/blog/content/images/2023/01/1-1.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A12:11]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_165"
+          }
+        ],
+        "title": "Trending",
+        "action": "action_38427",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_38427_intent_25337"
+        },
+        "variables": [
+          {
+            "title": "Berikut beberapa buku trending belakangan ini!",
+            "variable": "step_165",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_8231",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_165",
+            "output": {
+              "generic": [
+                {
+                  "title": "TO LIVE",
+                  "source": "https://www.gramedia.com/blog/content/images/2023/01/1-1.jpg",
+                  "alt_text": "",
+                  "description": "CODE:E14:13",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_165_result_1"
+              }
+            },
+            "variable": "step_165"
+          }
+        ],
+        "title": "  TO LIVE",
+        "action": "action_38427-2",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_38427_intent_25337-2"
+        },
+        "variables": [
+          {
+            "title": "",
+            "variable": "step_165",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_165_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "fallback",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_659",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"The Testaments\" by Margaret Atwood (2019)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=66k",
+                  "source": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzL0puK2Wc-bopQxBwTwYHVJbl57gbR3nUfNKm8eYww4A9Pd6w",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A14:07]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_659_result_1"
+              }
+            },
+            "variable": "step_659"
+          }
+        ],
+        "title": "\"The Testaments\" by Margaret Atwood (2019)",
+        "action": "action_40765",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_40765_intent_30208"
+        },
+        "variables": [
+          {
+            "title": "\"The Testaments\" by Margaret Atwood (2019)",
+            "variable": "step_659",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_659_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_37803",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_320",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"Project Hail Mary\" by Andy Weir (2021)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=40k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQqWa1_eo2WP6dEQbaHytbTC3IVngzR3bHIiSxlxxMmtQu9pYX7",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A14\"01]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_320"
+          }
+        ],
+        "title": "\"Project Hail Mary\" by Andy Weir (2021)",
+        "action": "action_43650",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_43650_intent_43523"
+        },
+        "variables": [
+          {
+            "title": "\"Project Hail Mary\" by Andy Weir (2021)",
+            "variable": "step_320",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_47431",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_158",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The Power of Habit: Why We Do What We Do in Life and Business oleh Charles Duhigg (2012)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=76k",
+                  "source": "https://m.media-amazon.com/images/I/51u3Zvkm6DL.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [E13:04]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_158_result_1"
+              }
+            },
+            "variable": "step_158"
+          }
+        ],
+        "title": "The Power of Habit: Why We Do What We Do in Life and Business ol",
+        "action": "action_43762",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_43762_intent_42249"
+        },
+        "variables": [
+          {
+            "title": "The Power of Habit: Why We Do What We Do in Life and Business ol",
+            "variable": "step_158",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_158_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_12210",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_389",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"The Office of Historical Corrections\" by Danielle Evans (2020)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=80k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRRIwenXlAAGVcnGgWLdSs_tF45bbljmOYh-lR6-AAkPhp5qP5P",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A11:01]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_389_result_1"
+              }
+            },
+            "variable": "step_389"
+          }
+        ],
+        "title": "\"The Office of Historical Corrections\" by Danielle Evans (2020)",
+        "action": "action_47343",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_47343_intent_32709"
+        },
+        "variables": [
+          {
+            "title": "\"The Office of Historical Corrections\" by Danielle Evans (2020)",
+            "variable": "step_389",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_389_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_27480",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_706",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"The City We Became\" by N.K. Jemisin (2020)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=45k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2Nmm34IF7aFerdfGRWyhkonunZNFvooAO05z4bjXEyHPo_-QB",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A14:02]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_706_result_1"
+              }
+            },
+            "variable": "step_706"
+          }
+        ],
+        "title": "\"The City We Became\" by N.K. Jemisin (2020)",
+        "action": "action_47431",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_47431_intent_42535"
+        },
+        "variables": [
+          {
+            "title": "\"The City We Became\" by N.K. Jemisin (2020)",
+            "variable": "step_706",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_706_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_13627",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_336",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"The Other Passenger\" by Louise Candlish (2021)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=20k",
+                  "source": "https://images.squarespace-cdn.com/content/v1/58c180edff7c50dd0e51a2ad/1626721377412-Z8QJDZA5U2MST1LTRC0K/The+Other+Passenger+by+Louise+Candlish.jpeg?format=2500w",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [B11:01]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_336_result_1"
+              }
+            },
+            "variable": "step_336"
+          }
+        ],
+        "title": "\"The Other Passenger\" by Louise Candlish (2021)",
+        "action": "action_47657",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_47657_intent_45269"
+        },
+        "variables": [
+          {
+            "title": "\"The Other Passenger\" by Louise Candlish (2021)",
+            "variable": "step_336",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_336_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_37686",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_366",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Halo.."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_7327",
+                "parameters": null,
+                "result_variable": "step_366_result_1"
+              }
+            },
+            "variable": "step_366"
+          }
+        ],
+        "title": "Welcome",
+        "action": "action_48343",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_48343_intent_38877"
+        },
+        "variables": [
+          {
+            "title": "Halo..",
+            "variable": "step_366",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_366_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_25220",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_116",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The Omnivore's Dilemma: A Natural History of Four Meals oleh Michael Pollan (2006)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=74k",
+                  "source": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSC6ToTdSg8cYshBvnS1LCKNAs-2tt9USYyEdoDejLn4Y-N5pek",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [E11:10]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_116_result_1"
+              }
+            },
+            "variable": "step_116"
+          }
+        ],
+        "title": "The Omnivore's Dilemma: A Natural History of Four Meals oleh Mic",
+        "action": "action_5904",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_5904_intent_8506"
+        },
+        "variables": [
+          {
+            "title": "The Omnivore's Dilemma: A Natural History of Four Meals oleh Mic",
+            "variable": "step_116",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_116_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_31439",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_705",
+            "output": {
+              "generic": [
+                {
+                  "title": "Sebuah seni bersikap bodoh amat",
+                  "source": "https://cdn1.productnation.co/stg/sites/5/5d64fd0659ad6.jpeg",
+                  "alt_text": "",
+                  "description": "CODE:E14:11",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_705_result_1"
+              }
+            },
+            "variable": "step_705"
+          }
+        ],
+        "title": "Sebuah seni bersikap bodoh amat",
+        "action": "action_6168",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_6168_intent_29655"
+        },
+        "variables": [
+          {
+            "title": "",
+            "variable": "step_705",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_705_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_28952",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_374",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "How can I help you?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_374"
+          }
+        ],
+        "title": "need help?",
+        "action": "action_7327",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_7327_intent_38612"
+        },
+        "variables": [
+          {
+            "title": "How can I help you?",
+            "variable": "step_374",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_14962",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_893",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "What type of book are you looking for?"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "options": [
+                    {
+                      "label": "Fiction",
+                      "value": {
+                        "input": {
+                          "text": "Fiction"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Non-fiction",
+                      "value": {
+                        "input": {
+                          "text": "Non-fiction"
+                        }
+                      }
+                    }
+                  ],
+                  "response_type": "option",
+                  "repeat_on_reprompt": true
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "not_found",
+                "title": "validation_not_found_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I didn't catch that. Select a valid option:"
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_handler",
+                "resolver": {
+                  "type": "prompt_again"
+                },
+                "next_handler": "validation_not_found_max_tries_handler"
+              },
+              {
+                "type": "not_found_max_tries",
+                "title": "validation_not_found_max_tries_handler",
+                "handler": "validation_not_found_max_tries_handler",
+                "resolver": {
+                  "type": "fallback"
+                }
+              }
+            ],
+            "question": {
+              "entity": "entity_17022",
+              "max_tries": 3
+            },
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_893",
+            "next_step": "step_733"
+          },
+          {
+            "step": "step_733",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following types of fiction books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "options": [
+                    {
+                      "label": "Short Story",
+                      "value": {
+                        "input": {
+                          "text": "Short Story"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Science Fiction",
+                      "value": {
+                        "input": {
+                          "text": "Science Fiction"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Romance",
+                      "value": {
+                        "input": {
+                          "text": "Romance"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Thriller",
+                      "value": {
+                        "input": {
+                          "text": "Thriller"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Mystery",
+                      "value": {
+                        "input": {
+                          "text": "Mystery"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Novel",
+                      "value": {
+                        "input": {
+                          "text": "Novel"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Poetry",
+                      "value": {
+                        "input": {
+                          "text": "Poetry"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Drama",
+                      "value": {
+                        "input": {
+                          "text": "Drama"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Fantasy",
+                      "value": {
+                        "input": {
+                          "text": "Fantasy"
+                        }
+                      }
+                    },
+                    {
+                      "label": "History",
+                      "value": {
+                        "input": {
+                          "text": "History"
+                        }
+                      }
+                    }
+                  ],
+                  "response_type": "option",
+                  "repeat_on_reprompt": true
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "not_found",
+                "title": "validation_not_found_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I didn't catch that. Select a valid option:"
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_handler",
+                "resolver": {
+                  "type": "prompt_again"
+                },
+                "next_handler": "validation_not_found_max_tries_handler"
+              },
+              {
+                "type": "not_found_max_tries",
+                "title": "validation_not_found_max_tries_handler",
+                "handler": "validation_not_found_max_tries_handler",
+                "resolver": {
+                  "type": "fallback"
+                }
+              }
+            ],
+            "question": {
+              "entity": "entity_22083",
+              "max_tries": 3,
+              "allow_topic_switch": false,
+              "response_collection_behavior": "optionally_ask"
+            },
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_733",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_893"
+                },
+                {
+                  "value": "Fiction",
+                  "from_entity": "entity_17022"
+                }
+              ]
+            },
+            "next_step": "step_271"
+          },
+          {
+            "step": "step_271",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=80k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSaoLQqOKngXRucnBlN4WyWqv3UWWt6E6cRsAD99wjgrfRxgT4f",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A11:03]",
+                  "response_type": "image"
+                },
+                {
+                  "title": "IDR=217k",
+                  "source": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQk_h1RQu4CeN7J_EogWYaL_GTATyjhsDPWNmhLK4XFb8kuY9V0",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A11:02]",
+                  "response_type": "image"
+                },
+                {
+                  "title": "IDR=98k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRRIwenXlAAGVcnGgWLdSs_tF45bbljmOYh-lR6-AAkPhp5qP5P",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A11:01]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_271_result_1"
+              }
+            },
+            "variable": "step_271",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_733"
+                },
+                {
+                  "value": "Short Story",
+                  "from_entity": "entity_22083"
+                }
+              ]
+            },
+            "next_step": "step_543"
+          },
+          {
+            "step": "step_543",
+            "output": {
+              "generic": [
+                {
+                  "title": "IDR=40k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQqWa1_eo2WP6dEQbaHytbTC3IVngzR3bHIiSxlxxMmtQu9pYX7",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A14:01]",
+                  "response_type": "image"
+                },
+                {
+                  "title": "IDR=45k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2Nmm34IF7aFerdfGRWyhkonunZNFvooAO05z4bjXEyHPo_-QB",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A14:02]",
+                  "response_type": "image"
+                },
+                {
+                  "title": "IDR=60k",
+                  "source": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2mcTp1OPFrdv4bdriMJlYC-gjF3pIUg4_jFDbHqmn-CAyRxvs",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A14:03]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_543_result_1"
+              }
+            },
+            "variable": "step_543",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_733"
+                },
+                {
+                  "value": "Science Fiction",
+                  "from_entity": "entity_22083"
+                }
+              ]
+            },
+            "next_step": "step_396"
+          },
+          {
+            "step": "step_396",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=25k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLik3hDhpNu5v2jkC9ZS47-IKdTUg7iK8nww09BRUyKAyGyVJ_",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [C11:04]",
+                  "response_type": "image"
+                },
+                {
+                  "title": "IDR=30k",
+                  "source": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/5/14/8481125c-23d0-43bd-b2e2-40987cee9109.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [C11:06]",
+                  "response_type": "image"
+                },
+                {
+                  "title": "IDR=35k",
+                  "source": "https://media.karousell.com/media/photos/products/2021/9/30/english_beach_read_by_emily_he_1633044938_42a7f450_progressive.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [C11:09]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_396_result_1"
+              }
+            },
+            "variable": "step_396",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_733"
+                },
+                {
+                  "value": "Romance",
+                  "from_entity": "entity_22083"
+                }
+              ]
+            },
+            "next_step": "step_519"
+          },
+          {
+            "step": "step_519",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=20k",
+                  "source": "https://images.squarespace-cdn.com/content/v1/58c180edff7c50dd0e51a2ad/1626721377412-Z8QJDZA5U2MST1LTRC0K/The+Other+Passenger+by+Louise+Candlish.jpeg?format=2500w",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [B11:01]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_519_result_1"
+              }
+            },
+            "variable": "step_519",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_733"
+                },
+                {
+                  "value": "Thriller",
+                  "from_entity": "entity_22083"
+                }
+              ]
+            },
+            "next_step": "step_561"
+          },
+          {
+            "step": "step_561",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=44k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzgjRoZEQ7RKbsIHdthDGqOm0Mb1qrs7PPOmITeI8ELkRTe89h",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A13:01]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_561_result_1"
+              }
+            },
+            "variable": "step_561",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_733"
+                },
+                {
+                  "value": "Mystery",
+                  "from_entity": "entity_22083"
+                }
+              ]
+            },
+            "next_step": "step_553"
+          },
+          {
+            "step": "step_553",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=66k",
+                  "source": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzL0puK2Wc-bopQxBwTwYHVJbl57gbR3nUfNKm8eYww4A9Pd6w",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER {B12:05]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_553_result_1"
+              }
+            },
+            "variable": "step_553",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_733"
+                },
+                {
+                  "value": "Novel",
+                  "from_entity": "entity_22083"
+                }
+              ]
+            },
+            "next_step": "step_198"
+          },
+          {
+            "step": "step_198",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=88k",
+                  "source": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQxbHHNcgTeclwQOd1m7pczPQwQzOqYQmLlXAhg7jXCR5aNIVCX",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A12:07]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_198_result_1"
+              }
+            },
+            "variable": "step_198",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_733"
+                },
+                {
+                  "value": "History",
+                  "from_entity": "entity_22083"
+                }
+              ]
+            },
+            "next_step": "step_351"
+          },
+          {
+            "step": "step_351",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=22k",
+                  "source": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612178266l/56914101.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [B13:01]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_351_result_1"
+              }
+            },
+            "variable": "step_351",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_733"
+                },
+                {
+                  "value": "Poetry",
+                  "from_entity": "entity_22083"
+                }
+              ]
+            },
+            "next_step": "step_277"
+          },
+          {
+            "step": "step_277",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=24k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTV8-Q3335RvObfDbEJA5rvMO3MmJEacjoynZzHV-FNEvpwhv7r",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [B14:09]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_277_result_1"
+              }
+            },
+            "variable": "step_277",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_733"
+                },
+                {
+                  "value": "Drama",
+                  "from_entity": "entity_22083"
+                }
+              ]
+            },
+            "next_step": "step_635"
+          },
+          {
+            "step": "step_635",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=26k",
+                  "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH24BNV61MKtpG4CZAHqjupUXD_xMoaCBA5EGHLvOVFvlVkDMD",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [C12:04]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_635_result_1"
+              }
+            },
+            "variable": "step_635",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_733"
+                },
+                {
+                  "value": "Fantasy",
+                  "from_entity": "entity_22083"
+                }
+              ]
+            },
+            "next_step": "step_541"
+          },
+          {
+            "step": "step_541",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following types of non-fiction books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "options": [
+                    {
+                      "label": "Biography",
+                      "value": {
+                        "input": {
+                          "text": "Biography"
+                        }
+                      }
+                    },
+                    {
+                      "label": "History",
+                      "value": {
+                        "input": {
+                          "text": "History"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Science and Technology",
+                      "value": {
+                        "input": {
+                          "text": "Science and Technology"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Education",
+                      "value": {
+                        "input": {
+                          "text": "Education"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Cookbook",
+                      "value": {
+                        "input": {
+                          "text": "Cookbook"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Encyclopedia",
+                      "value": {
+                        "input": {
+                          "text": "Encyclopedia"
+                        }
+                      }
+                    },
+                    {
+                      "label": "environment and nature",
+                      "value": {
+                        "input": {
+                          "text": "environment and nature"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Travel",
+                      "value": {
+                        "input": {
+                          "text": "Travel"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Business",
+                      "value": {
+                        "input": {
+                          "text": "Business"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Self-Help",
+                      "value": {
+                        "input": {
+                          "text": "Self-Help"
+                        }
+                      }
+                    }
+                  ],
+                  "response_type": "option",
+                  "repeat_on_reprompt": true
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "not_found",
+                "title": "validation_not_found_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I didn't catch that. Select a valid option:"
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_handler",
+                "resolver": {
+                  "type": "prompt_again"
+                },
+                "next_handler": "validation_not_found_max_tries_handler"
+              },
+              {
+                "type": "not_found_max_tries",
+                "title": "validation_not_found_max_tries_handler",
+                "handler": "validation_not_found_max_tries_handler",
+                "resolver": {
+                  "type": "fallback"
+                }
+              }
+            ],
+            "question": {
+              "entity": "entity_5990",
+              "max_tries": 3
+            },
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_541",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_893"
+                },
+                {
+                  "value": "Non-fiction",
+                  "from_entity": "entity_17022"
+                }
+              ]
+            },
+            "next_step": "step_255"
+          },
+          {
+            "step": "step_255",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=70k",
+                  "source": "https://inlis.madiunkota.go.id/uploaded_files/sampul_koleksi/original/Monograf/10183.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [C13:01]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_255_result_1"
+              }
+            },
+            "variable": "step_255",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_541"
+                },
+                {
+                  "value": "Biography",
+                  "from_entity": "entity_5990"
+                }
+              ]
+            },
+            "next_step": "step_258"
+          },
+          {
+            "step": "step_258",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The Following Types of History Books Available!"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "options": [
+                    {
+                      "label": "Cultural History",
+                      "value": {
+                        "input": {
+                          "text": "Cultural History"
+                        }
+                      }
+                    },
+                    {
+                      "label": "General history",
+                      "value": {
+                        "input": {
+                          "text": "General history"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Royal history",
+                      "value": {
+                        "input": {
+                          "text": "Royal history"
+                        }
+                      }
+                    },
+                    {
+                      "label": "History of Civilization",
+                      "value": {
+                        "input": {
+                          "text": "History of Civilization"
+                        }
+                      }
+                    },
+                    {
+                      "label": "Military history",
+                      "value": {
+                        "input": {
+                          "text": "Military history"
+                        }
+                      }
+                    }
+                  ],
+                  "response_type": "option",
+                  "repeat_on_reprompt": true
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "not_found",
+                "title": "validation_not_found_handler",
+                "output": {
+                  "generic": [
+                    {
+                      "values": [
+                        {
+                          "text": "I didn't catch that. Select a valid option:"
+                        }
+                      ],
+                      "response_type": "text"
+                    }
+                  ]
+                },
+                "handler": "validation_not_found_handler",
+                "resolver": {
+                  "type": "prompt_again"
+                },
+                "next_handler": "validation_not_found_max_tries_handler"
+              },
+              {
+                "type": "not_found_max_tries",
+                "title": "validation_not_found_max_tries_handler",
+                "handler": "validation_not_found_max_tries_handler",
+                "resolver": {
+                  "type": "fallback"
+                }
+              }
+            ],
+            "question": {
+              "entity": "entity_31339",
+              "max_tries": 3
+            },
+            "resolver": {
+              "type": "continue"
+            },
+            "variable": "step_258",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_541"
+                },
+                {
+                  "value": "History",
+                  "from_entity": "entity_5990"
+                }
+              ]
+            },
+            "next_step": "step_551"
+          },
+          {
+            "step": "step_551",
+            "output": {
+              "generic": [
+                {
+                  "title": "ATLAS [Sejarah Indonesia & Dunia]",
+                  "source": "https://cdn.gramedia.com/uploads/items/204762951_Atlas-Sejarah-Ind.jpg",
+                  "alt_text": "",
+                  "description": "Code 113:A1",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action_and_end",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_551_result_1"
+              }
+            },
+            "variable": "step_551",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_258"
+                },
+                {
+                  "value": "Cultural History",
+                  "from_entity": "entity_31339"
+                }
+              ]
+            },
+            "next_step": "step_378"
+          },
+          {
+            "step": "step_378",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=71k",
+                  "source": "https://online.fliphtml5.com/wnsdp/kpia/files/large/67c3c32bfa2b9791019b63f40f0bcccd.jpg?1658370976",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [D12:06]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_378_result_1"
+              }
+            },
+            "variable": "step_378",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_541"
+                },
+                {
+                  "value": "Education",
+                  "from_entity": "entity_5990"
+                }
+              ]
+            },
+            "next_step": "step_798"
+          },
+          {
+            "step": "step_798",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=72k",
+                  "source": "https://online.fliphtml5.com/wnsdp/kpia/files/large/67c3c32bfa2b9791019b63f40f0bcccd.jpg?1658370976",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [D13:08]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_798_result_1"
+              }
+            },
+            "variable": "step_798",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_541"
+                },
+                {
+                  "value": "Cookbook",
+                  "from_entity": "entity_5990"
+                }
+              ]
+            },
+            "next_step": "step_204"
+          },
+          {
+            "step": "step_204",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=73k",
+                  "source": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/8/20/bc6a6aa7-43d5-490b-a1dc-06ae99531750.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [D14:04]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "context": {
+              "variables": []
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_204_result_1"
+              }
+            },
+            "variable": "step_204",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_541"
+                },
+                {
+                  "value": "Encyclopedia",
+                  "from_entity": "entity_5990"
+                }
+              ]
+            },
+            "next_step": "step_218"
+          },
+          {
+            "step": "step_218",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=74k",
+                  "source": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSC6ToTdSg8cYshBvnS1LCKNAs-2tt9USYyEdoDejLn4Y-N5pek",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [E11:10]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_218_result_1"
+              }
+            },
+            "variable": "step_218",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_541"
+                },
+                {
+                  "value": "environment and nature",
+                  "from_entity": "entity_5990"
+                }
+              ]
+            },
+            "next_step": "step_933"
+          },
+          {
+            "step": "step_933",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "The following books are available:"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=75k",
+                  "source": "https://m.media-amazon.com/images/I/61CuZiilJxL._AC_UF1000,1000_QL80_.jpg",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [E12:03]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_933_result_1"
+              }
+            },
+            "variable": "step_933",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_541"
+                },
+                {
+                  "value": "Travel",
+                  "from_entity": "entity_5990"
+                }
+              ]
+            },
+            "next_step": "step_292"
+          },
+          {
+            "step": "step_292",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "book not yet available"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_292_result_1"
+              }
+            },
+            "variable": "step_292",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_541"
+                },
+                {
+                  "value": "Business",
+                  "from_entity": "entity_5990"
+                }
+              ]
+            },
+            "next_step": "step_776"
+          },
+          {
+            "step": "step_776",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "book not yet available"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_776_result_1"
+              }
+            },
+            "variable": "step_776",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_541"
+                },
+                {
+                  "value": "Self-Help",
+                  "from_entity": "entity_5990"
+                }
+              ]
+            },
+            "next_step": "step_347"
+          },
+          {
+            "step": "step_347",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "book not yet available"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_347_result_1"
+              }
+            },
+            "variable": "step_347",
+            "condition": {
+              "eq": [
+                {
+                  "variable": "step_541"
+                },
+                {
+                  "value": "Science and Technology",
+                  "from_entity": "entity_5990"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "looking for books",
+        "action": "action_8231",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_8231_intent_18539"
+        },
+        "variables": [
+          {
+            "title": "The following books are available:",
+            "variable": "step_198",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_198_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_204",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_204_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_218",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_218_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_255",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_255_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The Following Types of History Books Available!",
+            "variable": "step_258",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_271",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_271_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_277",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_277_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "book not yet available",
+            "variable": "step_292",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_292_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "book not yet available",
+            "variable": "step_347",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_347_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_351",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_351_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_378",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_378_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_396",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_396_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_519",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_519_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following types of non-fiction books are available:",
+            "variable": "step_541",
+            "data_type": "any"
+          },
+          {
+            "title": "",
+            "variable": "step_543",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_543_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "No response",
+            "variable": "step_551",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_551_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_553",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_553_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_561",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_561_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_635",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_635_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following types of fiction books are available:",
+            "variable": "step_733",
+            "data_type": "any"
+          },
+          {
+            "title": "book not yet available",
+            "variable": "step_776",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_776_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_798",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_798_result_1",
+            "data_type": "any"
+          },
+          {
+            "title": "What type of book are you looking for?",
+            "variable": "step_893",
+            "data_type": "any"
+          },
+          {
+            "title": "The following books are available:",
+            "variable": "step_933",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_933_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_38427-2",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_975",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "\"The Low Desert\" by Tod Goldberg (2021)"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                },
+                {
+                  "title": "IDR=98k",
+                  "source": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSaoLQqOKngXRucnBlN4WyWqv3UWWt6E6cRsAD99wjgrfRxgT4f",
+                  "alt_text": "",
+                  "description": "BLOCK:NUMBER [A11:03]",
+                  "response_type": "image"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action",
+              "invoke_action": {
+                "action": "action_27480",
+                "parameters": null,
+                "result_variable": "step_975_result_1"
+              }
+            },
+            "variable": "step_975"
+          }
+        ],
+        "title": "\"The Low Desert\" by Tod Goldberg (2021)",
+        "action": "action_9119",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "action_9119_intent_20748"
+        },
+        "variables": [
+          {
+            "title": "\"The Low Desert\" by Tod Goldberg (2021)",
+            "variable": "step_975",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_975_result_1",
+            "data_type": "any"
+          }
+        ],
+        "launch_mode": "learning",
+        "next_action": "action_23441",
+        "topic_switch": {
+          "allowed_from": true,
+          "allowed_into": true,
+          "never_return": false
+        },
+        "disambiguation_opt_out": false
+      },
+      {
+        "steps": [
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "I'm afraid I don't understand. Please repeat your question."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_001",
+            "condition": {
+              "lte": [
+                {
+                  "system_variable": "no_action_matches_count"
+                },
+                {
+                  "scalar": 3
+                }
+              ]
+            },
+            "next_step": "step_002"
+          },
+          {
+            "step": "step_002",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": ""
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "invoke_another_action_and_end",
+              "invoke_action": {
+                "action": "fallback",
+                "parameters": null,
+                "result_variable": "step_002_result_1"
+              }
+            },
+            "variable": "step_002",
+            "condition": {
+              "gt": [
+                {
+                  "system_variable": "no_action_matches_count"
+                },
+                {
+                  "scalar": 3
+                }
+              ]
+            }
+          }
+        ],
+        "title": "No action matches",
+        "action": "anything_else",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "expression": "anything_else"
+        },
+        "variables": [
+          {
+            "title": "I'm afraid I don't understand. Please repeat your question.",
+            "variable": "step_001",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_002",
+            "data_type": "any"
+          },
+          {
+            "variable": "step_002_result_1",
+            "data_type": "any"
+          }
+        ],
+        "disambiguation_opt_out": true
+      },
+      {
+        "steps": [
+          {
+            "step": "digression_failure",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Sorry I can't be sure if you want to go back to the previous topic, let me connect to the admin."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "digression_failure",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Failed to confirm topic return"
+                }
+              ]
+            },
+            "next_step": "step_001"
+          },
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "I'm afraid I don't understand. I can put you in touch with admin."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_001",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Step validation failed"
+                }
+              ]
+            },
+            "next_step": "step_002"
+          },
+          {
+            "step": "step_002",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Sorry I can not help you. I'll put you in contact with Admin soon."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_002",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Agent requested"
+                }
+              ]
+            },
+            "next_step": "step_003"
+          },
+          {
+            "step": "step_003",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text": "I am afraid I do not understand what you are asking, let me connect you to an agent."
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_003",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "No action matches"
+                }
+              ]
+            },
+            "next_step": "step_004"
+          },
+          {
+            "step": "step_004",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "It seems that these conversations are best managed by human agents. Let me put you in touch with one of our agents."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_004",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Danger word detected"
+                }
+              ]
+            },
+            "next_step": "step_005"
+          },
+          {
+            "step": "step_005",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "It seems that these conversations are best managed by human agents. Let me put you in touch with one of our agents."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "connect_to_agent",
+              "response": {
+                "transfer_info": {
+                  "target": {}
+                },
+                "agent_available": {
+                  "message": "Let's send you to an available agent."
+                },
+                "agent_unavailable": {
+                  "message": "There are no agents available at this time. When one becomes available, we'll connect you."
+                },
+                "message_to_human_agent": ""
+              }
+            },
+            "variable": "step_005",
+            "condition": {
+              "eq": [
+                {
+                  "system_variable": "fallback_reason"
+                },
+                {
+                  "scalar": "Profanity detected"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "Fallback",
+        "action": "fallback",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "intent": "fallback_connect_to_agent"
+        },
+        "variables": [
+          {
+            "title": "Sorry I can't be sure if you want to go back to the previous top",
+            "variable": "digression_failure",
+            "data_type": "any"
+          },
+          {
+            "title": "I'm afraid I don't understand. I can put you in touch with admin",
+            "variable": "step_001",
+            "data_type": "any"
+          },
+          {
+            "title": "Sorry I can not help you. I'll put you in contact with Admin soo",
+            "variable": "step_002",
+            "data_type": "any"
+          },
+          {
+            "title": "I am afraid I do not understand what you are asking, let me conn",
+            "variable": "step_003",
+            "data_type": "any"
+          },
+          {
+            "title": "It seems that these conversations are best managed by human agen",
+            "variable": "step_004",
+            "data_type": "any"
+          },
+          {
+            "title": "It seems that these conversations are best managed by human agen",
+            "variable": "step_005",
+            "data_type": "any"
+          }
+        ],
+        "next_action": "run_always",
+        "disambiguation_opt_out": true
+      },
+      {
+        "steps": [
+          {
+            "step": "danger_word_detected",
+            "title": "Connect to agent",
+            "handlers": [],
+            "resolver": {
+              "type": "fallback"
+            },
+            "variable": "danger_word_detected_variable",
+            "condition": {
+              "entity": "danger_words"
+            },
+            "next_step": "profanity_detected"
+          },
+          {
+            "step": "profanity_detected",
+            "title": "Show warning",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "Please use appropriate language when interacting with the assistant."
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [
+              {
+                "type": "max_hits",
+                "handler": "max_hits_handler",
+                "resolver": {
+                  "type": "fallback"
+                }
+              }
+            ],
+            "max_hits": 2,
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "profanity_detected_variable",
+            "condition": {
+              "entity": "profane_words"
+            }
+          }
+        ],
+        "title": "Trigger word detected",
+        "action": "run_always",
+        "boosts": [],
+        "handlers": [],
+        "variables": [
+          {
+            "title": "Profanity detected",
+            "variable": "danger_word_detected_variable",
+            "data_type": "any"
+          },
+          {
+            "title": "Show warning",
+            "variable": "profanity_detected_variable",
+            "data_type": "any"
+          }
+        ],
+        "next_action": "anything_else"
+      },
+      {
+        "steps": [
+          {
+            "step": "step_001",
+            "output": {
+              "generic": [
+                {
+                  "values": [
+                    {
+                      "text_expression": {
+                        "concat": [
+                          {
+                            "scalar": "I'm personal assistant, Ready to help!"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "response_type": "text",
+                  "selection_policy": "sequential"
+                }
+              ]
+            },
+            "handlers": [],
+            "resolver": {
+              "type": "end_action"
+            },
+            "variable": "step_001"
+          }
+        ],
+        "title": "Greet customer",
+        "action": "welcome",
+        "boosts": [],
+        "handlers": [],
+        "condition": {
+          "expression": "welcome"
+        },
+        "variables": [
+          {
+            "title": "I'm personal assistant, Ready to help!",
+            "variable": "step_001",
+            "data_type": "any"
+          }
+        ],
+        "next_action": "action_29575",
+        "disambiguation_opt_out": true
+      }
+    ],
+    "intents": [
+      {
+        "intent": "action_10980_intent_36221",
+        "examples": [
+          {
+            "text": "honeymooners"
+          },
+          {
+            "text": "karya Christina Lauren"
+          },
+          {
+            "text": "price 30k"
+          },
+          {
+            "text": "price under 30k"
+          },
+          {
+            "text": "price under 50k"
+          },
+          {
+            "text": "publish 2019"
+          },
+          {
+            "text": "published 2019"
+          },
+          {
+            "text": "The Unhoneymooners"
+          },
+          {
+            "text": "\"The Unhoneymooners\" karya Christina Lauren (2019)"
+          },
+          {
+            "text": "Unhoneymooners"
+          }
+        ]
+      },
+      {
+        "intent": "action_12210_intent_32777",
+        "examples": [
+          {
+            "text": "bali"
+          },
+          {
+            "text": "Bali & Lombok"
+          },
+          {
+            "text": "BLOCK:NUMBER [E12:03]"
+          },
+          {
+            "text": "Lombok"
+          },
+          {
+            "text": "Lonely Planet"
+          },
+          {
+            "text": "Lonely Planet Bali & Lombok oleh Ryan Ver Berkmoes (2021)"
+          },
+          {
+            "text": "publish 2021"
+          },
+          {
+            "text": "published 2021"
+          },
+          {
+            "text": "Ryan Ver Berkmoes"
+          }
+        ]
+      },
+      {
+        "intent": "action_12593_intent_24763",
+        "examples": [
+          {
+            "text": "Berbahasa dan Bersastra Indonesia"
+          },
+          {
+            "text": "\"Berbahasa dan Bersastra Indonesia Kelas X\" karya Kemendikbud (2020)"
+          },
+          {
+            "text": "BLOCK:NUMBER [D12:06]"
+          },
+          {
+            "text": "Kelas 9"
+          },
+          {
+            "text": "Kelas X"
+          },
+          {
+            "text": "Kemendikbud"
+          }
+        ]
+      },
+      {
+        "intent": "action_12724_intent_27458",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [A12:07]"
+          },
+          {
+            "text": "Four Winds"
+          },
+          {
+            "text": "Kristin Hannah"
+          },
+          {
+            "text": "price 88k"
+          },
+          {
+            "text": "price under 100k"
+          },
+          {
+            "text": "publish 2021"
+          },
+          {
+            "text": "published 2021"
+          },
+          {
+            "text": "The Four Winds"
+          },
+          {
+            "text": "\"The Four Winds\" by Kristin Hannah (2021)"
+          }
+        ]
+      },
+      {
+        "intent": "action_13627_intent_26359",
+        "examples": [
+          {
+            "text": "a Sea of Stars"
+          },
+          {
+            "text": "BLOCK:NUMBER [A14:03]"
+          },
+          {
+            "text": "Christopher Paolini"
+          },
+          {
+            "text": "price under 100k"
+          },
+          {
+            "text": "price under 100 thousand"
+          },
+          {
+            "text": "price under 80k"
+          },
+          {
+            "text": "publish 2020"
+          },
+          {
+            "text": "published 2020"
+          },
+          {
+            "text": "\"To Sleep in a Sea of Stars\" by Christopher Paolini (2020)"
+          }
+        ]
+      },
+      {
+        "intent": "action_14962_intent_38983",
+        "examples": [
+          {
+            "text": "ai"
+          },
+          {
+            "text": "aii"
+          },
+          {
+            "text": "aiii"
+          },
+          {
+            "text": "Hai"
+          },
+          {
+            "text": "haii"
+          },
+          {
+            "text": "haiii"
+          },
+          {
+            "text": "hay"
+          },
+          {
+            "text": "hayy"
+          },
+          {
+            "text": "hayyy"
+          },
+          {
+            "text": "hey"
+          },
+          {
+            "text": "heyo"
+          },
+          {
+            "text": "heyy"
+          },
+          {
+            "text": "heyyy"
+          },
+          {
+            "text": "hi"
+          },
+          {
+            "text": "hii"
+          },
+          {
+            "text": "hiii"
+          },
+          {
+            "text": "hiiii"
+          }
+        ]
+      },
+      {
+        "intent": "action_15350_intent_44930",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [C11:04]"
+          },
+          {
+            "text": "fiction"
+          },
+          {
+            "text": "Hating Game"
+          },
+          {
+            "text": "karya Sally Thorne"
+          },
+          {
+            "text": "publish 2016"
+          },
+          {
+            "text": "published 2016"
+          },
+          {
+            "text": "The Hating Game"
+          },
+          {
+            "text": "\"The Hating Game\" karya Sally Thorne (2016)"
+          }
+        ]
+      },
+      {
+        "intent": "action_15485_intent_41296",
+        "examples": [
+          {
+            "text": "Biografi Sang Demonstran"
+          },
+          {
+            "text": "BLOCK:NUMBER [C13:01]"
+          },
+          {
+            "text": "Muhammad Rifai"
+          },
+          {
+            "text": "price 70k"
+          },
+          {
+            "text": "publish 2010"
+          },
+          {
+            "text": "published 2010"
+          },
+          {
+            "text": "Soe Hok Gie"
+          },
+          {
+            "text": "\"Soe Hok Gie: Biografi Sang Demonstran\" karya Muhammad Rifai (2010)"
+          }
+        ]
+      },
+      {
+        "intent": "action_15755_intent_46909",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [B14:09]"
+          },
+          {
+            "text": "fiction"
+          },
+          {
+            "text": "Lynn Nottage"
+          },
+          {
+            "text": "price under 100k"
+          },
+          {
+            "text": "publish 2015"
+          },
+          {
+            "text": "published 2015"
+          },
+          {
+            "text": "Sweat"
+          },
+          {
+            "text": "\"Sweat\" karya Lynn Nottage (2015)"
+          },
+          {
+            "text": "sweat Lynn Nottage"
+          }
+        ]
+      },
+      {
+        "intent": "action_23441_intent_31537",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [A11:02]"
+          },
+          {
+            "text": "Church Ladies"
+          },
+          {
+            "text": "Deesha Philyaw"
+          },
+          {
+            "text": "fiction"
+          },
+          {
+            "text": "price book under 250k"
+          },
+          {
+            "text": "price book under 250 thousand"
+          },
+          {
+            "text": "price book under 300k"
+          },
+          {
+            "text": "price book under 300 thousand"
+          },
+          {
+            "text": "published 2020"
+          },
+          {
+            "text": "The Secret Lives"
+          },
+          {
+            "text": "\"The Secret Lives of Church Ladies\" by Deesha Philyaw (2020)"
+          }
+        ]
+      },
+      {
+        "intent": "action_25220_intent_5519",
+        "examples": [
+          {
+            "text": "buku hendry manampiring"
+          },
+          {
+            "text": "Filosofi Teras"
+          },
+          {
+            "text": "Hendry manampiring"
+          },
+          {
+            "text": "levina lesmana"
+          },
+          {
+            "text": "teras"
+          },
+          {
+            "text": "teras filosofi"
+          }
+        ]
+      },
+      {
+        "intent": "action_25663_intent_17135",
+        "examples": [
+          {
+            "text": "Alix E. Harrow"
+          },
+          {
+            "text": "BLOCK:NUMBER [C12:04]"
+          },
+          {
+            "text": "Doors of January"
+          },
+          {
+            "text": "price 88k"
+          },
+          {
+            "text": "publish 2019"
+          },
+          {
+            "text": "published 2019"
+          },
+          {
+            "text": "The Ten Thousand Doors of January"
+          },
+          {
+            "text": "\"The Ten Thousand Doors of January\" karya Alix E. Harrow (2019)"
+          }
+        ]
+      },
+      {
+        "intent": "action_27480_intent_37414",
+        "examples": [
+          {
+            "text": "Looking for another book?"
+          }
+        ]
+      },
+      {
+        "intent": "action_28952_intent_39112",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [A11:10]"
+          },
+          {
+            "text": "buku the visual mba"
+          },
+          {
+            "text": "MBA"
+          },
+          {
+            "text": "saya mencari buku the visual mba"
+          },
+          {
+            "text": "The Visual MBA"
+          },
+          {
+            "text": "visual"
+          },
+          {
+            "text": "Visual mba"
+          },
+          {
+            "text": "visula"
+          }
+        ]
+      },
+      {
+        "intent": "action_29575_intent_49230",
+        "examples": [
+          {
+            "text": "How to use assistant"
+          }
+        ]
+      },
+      {
+        "intent": "action_31439_intent_48940",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [D14:04]"
+          },
+          {
+            "text": "Ensiklopedia"
+          },
+          {
+            "text": "Ensiklopedia Sejarah Dunia"
+          },
+          {
+            "text": "Ensiklopedia Sejarah Dunia oleh Tim Ensiklopedia Sejarah Dunia (2022)"
+          },
+          {
+            "text": "publish 2022"
+          },
+          {
+            "text": "published 2022"
+          },
+          {
+            "text": "Sejarah Dunia"
+          }
+        ]
+      },
+      {
+        "intent": "action_34103_intent_27836",
+        "examples": [
+          {
+            "text": "Amanda Gorman"
+          },
+          {
+            "text": "BLOCK:NUMBER [B13:01]"
+          },
+          {
+            "text": "price 22k"
+          },
+          {
+            "text": "publish 2021"
+          },
+          {
+            "text": "published 2021"
+          },
+          {
+            "text": "publsih 2021"
+          },
+          {
+            "text": "The Hill We Climb"
+          },
+          {
+            "text": "\"The Hill We Climb\" by Amanda Gorman (2021)"
+          },
+          {
+            "text": "We Climb"
+          }
+        ]
+      },
+      {
+        "intent": "action_37166_intent_1660",
+        "examples": [
+          {
+            "text": "enter the book title"
+          },
+          {
+            "text": "judul"
+          },
+          {
+            "text": "judul buku"
+          },
+          {
+            "text": "title"
+          },
+          {
+            "text": "title:"
+          }
+        ]
+      },
+      {
+        "intent": "action_37686_intent_42787",
+        "examples": [
+          {
+            "text": "Beach Read"
+          },
+          {
+            "text": "\"Beach Read\" karya Emily Henry (2020)"
+          },
+          {
+            "text": "BLOCK:NUMBER [C11:09]"
+          },
+          {
+            "text": "by Emily Henry"
+          },
+          {
+            "text": "Emily Henry"
+          },
+          {
+            "text": "price 35k"
+          },
+          {
+            "text": "publish 2020"
+          },
+          {
+            "text": "published 2020"
+          }
+        ]
+      },
+      {
+        "intent": "action_37803_intent_39327",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [A13:01]"
+          },
+          {
+            "text": "price 44k"
+          },
+          {
+            "text": "price under 50k"
+          },
+          {
+            "text": "publish 2021"
+          },
+          {
+            "text": "published 2021"
+          },
+          {
+            "text": "Sanatorium"
+          },
+          {
+            "text": "Sarah Pearse"
+          },
+          {
+            "text": "The Sanatorium"
+          },
+          {
+            "text": "\"The Sanatorium\" by Sarah Pearse (2021)"
+          }
+        ]
+      },
+      {
+        "intent": "action_38313_intent_13548",
+        "examples": [
+          {
+            "text": "500 Resep dari Sang Ahli"
+          },
+          {
+            "text": "BLOCK:NUMBER [D13:08]"
+          },
+          {
+            "text": "buku buat bayi"
+          },
+          {
+            "text": "Kitab Makanan Bayi Balita"
+          },
+          {
+            "text": "publish 2022"
+          },
+          {
+            "text": "published 2022"
+          },
+          {
+            "text": "Tuti Soenardi"
+          },
+          {
+            "text": "Tuti Soenardi 500 Resep dari Sang Ahli: Kitab Makanan Bayi Balita (2022)"
+          }
+        ]
+      },
+      {
+        "intent": "action_38427_intent_25337",
+        "examples": [
+          {
+            "text": "best seller"
+          },
+          {
+            "text": "bestseller"
+          },
+          {
+            "text": "BLOCK:NUMBER [A11:10]"
+          },
+          {
+            "text": "BLOCK:NUMBER [A12:11]"
+          },
+          {
+            "text": "buku keren"
+          },
+          {
+            "text": "buku terbaru"
+          },
+          {
+            "text": "buku terbaruu"
+          },
+          {
+            "text": "Buku trend"
+          },
+          {
+            "text": "terbaru"
+          },
+          {
+            "text": "terbaruu'"
+          },
+          {
+            "text": "trending"
+          }
+        ]
+      },
+      {
+        "intent": "action_38427_intent_25337-2",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [A12:11]"
+          },
+          {
+            "text": "judul to live"
+          },
+          {
+            "text": "live"
+          },
+          {
+            "text": "Saya mencari buku to live"
+          },
+          {
+            "text": "Saya mencari buku to live\\"
+          },
+          {
+            "text": "to"
+          },
+          {
+            "text": "to live"
+          }
+        ]
+      },
+      {
+        "intent": "action_40765_intent_30208",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [A14:07]"
+          },
+          {
+            "text": "Margaret Atwood"
+          },
+          {
+            "text": "price 66k"
+          },
+          {
+            "text": "publish 2019"
+          },
+          {
+            "text": "published 2019"
+          },
+          {
+            "text": "Testaments"
+          },
+          {
+            "text": "The Testaments"
+          },
+          {
+            "text": "\"The Testaments\" by Margaret Atwood (2019)"
+          }
+        ]
+      },
+      {
+        "intent": "action_43650_intent_43523",
+        "examples": [
+          {
+            "text": "Andy Weir"
+          },
+          {
+            "text": "BLOCK:NUMBER [A14\"01]"
+          },
+          {
+            "text": "book by Andy Weir"
+          },
+          {
+            "text": "price 40k"
+          },
+          {
+            "text": "price under 50k"
+          },
+          {
+            "text": "price under 50 thousand"
+          },
+          {
+            "text": "Project Hail Mar"
+          },
+          {
+            "text": "\"Project Hail Mary\" by Andy Weir (2021)"
+          },
+          {
+            "text": "publish 2021"
+          },
+          {
+            "text": "published 2021"
+          }
+        ]
+      },
+      {
+        "intent": "action_43762_intent_42249",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [E13:04]"
+          },
+          {
+            "text": "price 76k"
+          },
+          {
+            "text": "price under 100k"
+          },
+          {
+            "text": "publish 2012"
+          },
+          {
+            "text": "published 2012"
+          },
+          {
+            "text": "The Power of Habi"
+          },
+          {
+            "text": "The Power of Habit"
+          },
+          {
+            "text": "The Power of Habit: Why We Do What We Do in Life and Business oleh Charles Duhigg (2012)"
+          },
+          {
+            "text": "Why We Do What We Do in Life"
+          }
+        ]
+      },
+      {
+        "intent": "action_47343_intent_32709",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [A11:01]"
+          },
+          {
+            "text": "Historical Corrections"
+          },
+          {
+            "text": "i find book price under 100k"
+          },
+          {
+            "text": "price 100k"
+          },
+          {
+            "text": "publish 2020"
+          },
+          {
+            "text": "published 2020"
+          },
+          {
+            "text": "The Office of Historical Corrections"
+          },
+          {
+            "text": "\"The Office of Historical Corrections\" by Danielle Evans (2020)"
+          }
+        ]
+      },
+      {
+        "intent": "action_47431_intent_42535",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [A14:02]"
+          },
+          {
+            "text": "N.K. Jemisin"
+          },
+          {
+            "text": "price 45k"
+          },
+          {
+            "text": "price under 100k"
+          },
+          {
+            "text": "price under 50k"
+          },
+          {
+            "text": "price under 50 thousand"
+          },
+          {
+            "text": "publish 2020"
+          },
+          {
+            "text": "published 2020"
+          },
+          {
+            "text": "The City"
+          },
+          {
+            "text": "The City We Became"
+          },
+          {
+            "text": "\"The City We Became\" by N.K. Jemisin (2020)"
+          },
+          {
+            "text": "We Became"
+          }
+        ]
+      },
+      {
+        "intent": "action_47657_intent_45269",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [B11:01]"
+          },
+          {
+            "text": "Candlish"
+          },
+          {
+            "text": "fiction"
+          },
+          {
+            "text": "Louise"
+          },
+          {
+            "text": "Louise Candlish"
+          },
+          {
+            "text": "price under 25k"
+          },
+          {
+            "text": "publish 2021"
+          },
+          {
+            "text": "published 2021"
+          },
+          {
+            "text": "The Other Passenger"
+          },
+          {
+            "text": "\"The Other Passenger\" by Louise Candlish (2021)"
+          }
+        ]
+      },
+      {
+        "intent": "action_48343_intent_38877",
+        "examples": [
+          {
+            "text": "alo"
+          },
+          {
+            "text": "alooo"
+          },
+          {
+            "text": "hallo"
+          },
+          {
+            "text": "halo"
+          },
+          {
+            "text": "Haloo"
+          },
+          {
+            "text": "helllo"
+          },
+          {
+            "text": "hello"
+          },
+          {
+            "text": "test"
+          }
+        ]
+      },
+      {
+        "intent": "action_5904_intent_8506",
+        "examples": [
+          {
+            "text": "A Natural History of Four Meals"
+          },
+          {
+            "text": "BLOCK:NUMBER [E11:10]"
+          },
+          {
+            "text": "Dilemma"
+          },
+          {
+            "text": "Michael Pollan"
+          },
+          {
+            "text": "price under 100k"
+          },
+          {
+            "text": "price under 80k"
+          },
+          {
+            "text": "publish 2006"
+          },
+          {
+            "text": "published 2006"
+          },
+          {
+            "text": "The Omnivore's"
+          },
+          {
+            "text": "The Omnivore's Dilemma: A Natural History of Four Meals oleh Michael Pollan (2006)"
+          }
+        ]
+      },
+      {
+        "intent": "action_6168_intent_29655",
+        "examples": [
+          {
+            "text": "bersikap bodoh amat"
+          },
+          {
+            "text": "bodoh amat"
+          },
+          {
+            "text": "Sebuah seni"
+          },
+          {
+            "text": "Sebuah seni bersikap"
+          },
+          {
+            "text": "Sebuah seni bersikap bodoh amat"
+          },
+          {
+            "text": "seni bersikap"
+          },
+          {
+            "text": "seni bodoh amat"
+          }
+        ]
+      },
+      {
+        "intent": "action_7327_intent_38612",
+        "examples": [
+          {
+            "text": "bantuan"
+          },
+          {
+            "text": "butuh bantuan"
+          },
+          {
+            "text": "help"
+          },
+          {
+            "text": "helper"
+          },
+          {
+            "text": "helping"
+          },
+          {
+            "text": "I need help?"
+          },
+          {
+            "text": "need"
+          },
+          {
+            "text": "pertolongan"
+          },
+          {
+            "text": "saya"
+          },
+          {
+            "text": "Saya butuh bantuan?"
+          }
+        ]
+      },
+      {
+        "intent": "action_8231_intent_18539",
+        "examples": [
+          {
+            "text": "a book"
+          },
+          {
+            "text": "abook"
+          },
+          {
+            "text": "am looking a book"
+          },
+          {
+            "text": "am looking book"
+          },
+          {
+            "text": "bok"
+          },
+          {
+            "text": "book"
+          },
+          {
+            "text": "booko"
+          },
+          {
+            "text": "buku"
+          },
+          {
+            "text": "buy a book"
+          },
+          {
+            "text": "buyed"
+          },
+          {
+            "text": "buyer"
+          },
+          {
+            "text": "find"
+          },
+          {
+            "text": "finds"
+          },
+          {
+            "text": "i'am find a book"
+          },
+          {
+            "text": "iam find a book"
+          },
+          {
+            "text": "i find a book"
+          },
+          {
+            "text": "i'm find a book"
+          },
+          {
+            "text": "I'm find book"
+          },
+          {
+            "text": "looking for books"
+          },
+          {
+            "text": "new"
+          },
+          {
+            "text": "new book"
+          },
+          {
+            "text": "newbook"
+          },
+          {
+            "text": "newboook"
+          },
+          {
+            "text": "news book"
+          },
+          {
+            "text": "seen book"
+          }
+        ]
+      },
+      {
+        "intent": "action_9119_intent_20748",
+        "examples": [
+          {
+            "text": "BLOCK:NUMBER [A11:03]"
+          },
+          {
+            "text": "i find book price under 100k"
+          },
+          {
+            "text": "im find book price under 100k"
+          },
+          {
+            "text": "price around 100k"
+          },
+          {
+            "text": "price under 100k"
+          },
+          {
+            "text": "price under 100 thousand"
+          },
+          {
+            "text": "publish 2021"
+          },
+          {
+            "text": "published 2021"
+          },
+          {
+            "text": "The Low Desert"
+          },
+          {
+            "text": "\"The Low Desert\" by Tod Goldberg (2021)"
+          },
+          {
+            "text": "Tod Goldberg"
+          }
+        ]
+      },
+      {
+        "intent": "fallback_connect_to_agent",
+        "examples": [
+          {
+            "text": "Agent help"
+          },
+          {
+            "text": "Call agent"
+          },
+          {
+            "text": "Can I connect to an agent?"
+          },
+          {
+            "text": "I would like to speak to a human"
+          },
+          {
+            "text": "I would like to speak to someone"
+          }
+        ],
+        "description": "Please transfer me to an agent"
+      }
+    ],
+    "entities": [
+      {
+        "entity": "danger_words",
+        "values": [],
+        "fuzzy_match": false
+      },
+      {
+        "entity": "entity_17022",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Fiction",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Non-fiction",
+            "synonyms": []
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "entity_17250",
+        "values": [
+          {
+            "type": "patterns",
+            "value": "Regular_expression",
+            "patterns": [
+              "\"^(?:.*[a-z])(?:.*[A-Z])(?:.*\\d)(?:.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$\""
+            ]
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "entity_19645",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Checking account",
+            "synonyms": [
+              "Checking"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Savings account",
+            "synonyms": [
+              "Savings"
+            ]
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "entity_22083",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Drama",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Fantasy",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "History",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Mystery",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Novel",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Poetry",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Romance",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Science Fiction",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Short Story",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Thriller",
+            "synonyms": []
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "entity_25899",
+        "values": [
+          {
+            "type": "patterns",
+            "value": "Email",
+            "patterns": [
+              "\\b(?:[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\\.)+[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?|\\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[A-Za-z0-9-]*[A-Za-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])\\b"
+            ]
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "entity_31339",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Cultural History",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "General history",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "History of Civilization",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Military history",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Royal history",
+            "synonyms": []
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "entity_34165",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "no",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "yes",
+            "synonyms": []
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "entity_5990",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Biography",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Business",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Cookbook",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Education",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Encyclopedia",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "environment and nature",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "History",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Science and Technology",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Self-Help",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Travel",
+            "synonyms": []
+          }
+        ],
+        "fuzzy_match": true
+      },
+      {
+        "entity": "profane_words",
+        "values": [],
+        "fuzzy_match": false
+      },
+      {
+        "entity": "sys-currency",
+        "values": []
+      },
+      {
+        "entity": "sys-date",
+        "values": []
+      },
+      {
+        "entity": "sys-number",
+        "values": []
+      },
+      {
+        "entity": "sys-percentage",
+        "values": []
+      },
+      {
+        "entity": "sys-time",
+        "values": []
+      },
+      {
+        "entity": "sys-yes-no",
+        "values": []
+      }
+    ],
+    "metadata": {
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "variables": [],
+    "data_types": [],
+    "collections": [
+      {
+        "title": "Main Data",
+        "collection": "collection_37778",
+        "action_references": [
+          {
+            "action": "action_38427"
+          },
+          {
+            "action": "action_8231"
+          }
+        ]
+      },
+      {
+        "title": "Book Title",
+        "collection": "collection_4895",
+        "action_references": [
+          {
+            "action": "action_15350"
+          },
+          {
+            "action": "action_34103"
+          },
+          {
+            "action": "action_40765"
+          },
+          {
+            "action": "action_47431"
+          },
+          {
+            "action": "action_12593"
+          },
+          {
+            "action": "action_37686"
+          },
+          {
+            "action": "action_15485"
+          },
+          {
+            "action": "action_38313"
+          },
+          {
+            "action": "action_31439"
+          },
+          {
+            "action": "action_37803"
+          },
+          {
+            "action": "action_23441"
+          },
+          {
+            "action": "action_47657"
+          },
+          {
+            "action": "action_28952"
+          },
+          {
+            "action": "action_5904"
+          },
+          {
+            "action": "action_25663"
+          },
+          {
+            "action": "action_43762"
+          },
+          {
+            "action": "action_43650"
+          },
+          {
+            "action": "action_6168"
+          },
+          {
+            "action": "action_25220"
+          },
+          {
+            "action": "action_38427-2"
+          },
+          {
+            "action": "action_12210"
+          },
+          {
+            "action": "action_15755"
+          },
+          {
+            "action": "action_47343"
+          },
+          {
+            "action": "action_13627"
+          },
+          {
+            "action": "action_12724"
+          },
+          {
+            "action": "action_9119"
+          },
+          {
+            "action": "action_10980"
+          }
+        ]
+      },
+      {
+        "title": "Dialog",
+        "collection": "collection_14197",
+        "action_references": [
+          {
+            "action": "action_29575"
+          },
+          {
+            "action": "action_7327"
+          },
+          {
+            "action": "action_48343"
+          },
+          {
+            "action": "action_14962"
+          },
+          {
+            "action": "action_27480"
+          },
+          {
+            "action": "action_37166"
+          }
+        ]
+      }
+    ],
+    "counterexamples": [],
+    "system_settings": {
+      "variable": {
+        "format": {
+          "time": {
+            "pattern": "short"
+          },
+          "currency": {
+            "fraction_digits": 2
+          }
+        }
+      },
+      "off_topic": {
+        "enabled": true
+      },
+      "auto_learn": {
+        "apply": true
+      },
+      "topic_switch": {
+        "enabled": true,
+        "messages": {
+          "enable_confirmation": true,
+          "confirmation_failure": {
+            "generic": [
+              {
+                "values": [
+                  {
+                    "text_expression": {
+                      "concat": [
+                        {
+                          "scalar": "I'm sorry, I did not catch that, please confirm."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "response_type": "text",
+                "selection_policy": "sequential"
+              }
+            ]
+          },
+          "confirmation_request": {
+            "generic": [
+              {
+                "values": [
+                  {
+                    "text_expression": {
+                      "concat": [
+                        {
+                          "scalar": "Do you want to continue with the previous topic: "
+                        },
+                        {
+                          "system_variable": "digressed_from"
+                        },
+                        {
+                          "scalar": "?"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "response_type": "text",
+                "selection_policy": "sequential"
+              },
+              {
+                "options": [
+                  {
+                    "label": "Yes",
+                    "value": {
+                      "input": {
+                        "text": "Yes"
+                      }
+                    }
+                  },
+                  {
+                    "label": "No",
+                    "value": {
+                      "input": {
+                        "text": "No"
+                      }
+                    }
+                  }
+                ],
+                "response_type": "option",
+                "repeat_on_reprompt": true
+              }
+            ]
+          }
+        },
+        "max_tries": 3
+      },
+      "disambiguation": {
+        "prompt": "Did you mean:",
+        "enabled": true,
+        "randomize": true,
+        "max_suggestions": 5,
+        "suggestion_text_policy": "title",
+        "none_of_the_above_prompt": "None of the above",
+        "use_connect_to_support_prompt": "Connect to support",
+        "single_answer_clarification_prompt": "Something else"
+      },
+      "spelling_auto_correct": true
+    },
+    "learning_opt_out": false
+  },
+  "description": "created for assistant 683300ac-31db-471b-bef9-00b694599f4c",
+  "assistant_id": "683300ac-31db-471b-bef9-00b694599f4c",
+  "workspace_id": "bdf290f1-9221-401e-a096-48686f020e4f",
+  "dialog_settings": {},
+  "next_snapshot_version": "1"
+}
